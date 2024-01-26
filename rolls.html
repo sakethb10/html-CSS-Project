@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Order Rolls</title>
+        <link rel="Stylesheet" href="Style2.css">
+        <script>
+            function deli(){
+                alert("1 Deli Roll Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+        <script>
+            function ranch(){
+                alert("1 Ranchy Roll Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+        <script>
+            function thai(){
+                alert("1 Thai Roll Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h2><center>CHOOSE FROM OUR AUTHENTIC ROLLS</center></h2>
+        </div>
+
+        <div class="burger">
+        <table style="border:none;">
+            <tr>
+                <td><img src="https://imgs.search.brave.com/QZPqKlwJ6D13XFVuPUQm_M-deZ9HgSO-bx8hBVmkPCE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU0/OTYzNDMzL3Bob3Rv/L2NoaWNrZW4tZGVs/aS13cmFwLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1fSEVB/d0sxVGpLWFk2S1Zm/LXZxelM3QmpwT01y/WGF2U1ZHbEFOekVC/ZEpRPQ" style="height:300px; width:400px;"></td>
+                <td><img src="https://imgs.search.brave.com/EzO-tJLxOGv3FCHGXisyhKIC2DpXhwD_GvwyCvB4YGU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zd2Vl/dHBlYXNraXRjaGVu/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNC9SYW5j/aC1DaGlja2VuLVdy/YXBzLTEtZWRpdGVk/LTEuanBn" style="height:300px; width:400px;"></td>
+                <td><img src="https://imgs.search.brave.com/KbNysqy9hQPN0FqNvqq-AKk_nnH555OaTwFXDy8J38Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly95dW1t/eWFkZGljdGlvbi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjEvMDkvVGhhaS1D/aGlja2VuLVdyYXBz/LmpwZw" style="height:300px; width:400px;"></td>
+            </tr>
+            <tr>
+                <td><h2><center>CHICKEN DELI ROLL</center></h2></td>
+                <td><h2><center>CHICKEN RANCHY ROLL</center></h2></td>
+                <td><h2><center>CHICKEN THAI ROLL</center></h2></td>
+            </tr>
+            <tr>
+                <td><center><h2><center>90&#8377</center></h2></center></td>
+                <td><center><h2><center>100&#8377</center></h2></center></td>
+                <td><center><h2><center>120&#8377</center></h2></center></td>
+            </tr> 
+            <tr>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="deli" onclick="deli()" value="Select"></center></td>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="ranch" onclick="ranch()" value="Select"></center></td>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="thai" onclick="thai()" value="Select"></center></td>
+            </tr>    
+        </table>
+        </div>
+
+        <div class="checkout">
+            <button style="width:80px; height:40px; background-color:white; color:green;"><a href="checkout.html">Checkout</a></button>
+        </div>
+    </body>
+</html>

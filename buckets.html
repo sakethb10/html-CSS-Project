@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Order Burgers</title>
+        <link rel="Stylesheet" href="Style2.css">
+        <script>
+            function mixed(){
+                alert("1 Mixed Bucket Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+        <script>
+            function classic(){
+                alert("1 Classic Bucket Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+        <script>
+            function spicy(){
+                alert("1 Spicy Bucket Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h2><center>CHOOSE FROM OUR AUTHENTIC BUCKETS</center></h2>
+        </div>
+
+        <div class="burger">
+        <table style="border:none;">
+            <tr>
+                <td><img src="https://imgs.search.brave.com/rDqC8CnifErsKjZ86F26kQkgnh2c28SdFapeoMrIdQ4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc3/MDA1NDkwL3Bob3Rv/L2ZyaWVkLWNoaWNr/ZW4taW4tYmlnLXJl/ZC13aGl0ZS1zdHJp/cGVzLWJ1Y2tldC1i/b3guanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXU3LU4tQVFR/cTJpSEpTcEdLTFJa/QW5XbldRYktYRkhZ/ZkJmX1ZLY2p2eEE9" style="height:300px; width:400px;"></td>
+                <td><img src="https://imgs.search.brave.com/W_wiIgAUSC5ZdbrKH2zta0_wBgDjFyUOLPlGaVfbXB4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvODgz/MDkwOTgvcGhvdG8v/YnVja2V0LW9mLWNo/aWNrZW4uanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPU1QdkUt/TmxtMW41YjFjNVlY/aWRfVU9yUWdkZ0J1/bVJYMWpzMzlNLTNB/Smc9" style="height:300px; width:400px;"></td>
+                <td><img src="https://imgs.search.brave.com/RZwFmStvMiJMb7F-lOINpmYrkB08NiEDvUsB3E4qJHo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNTc2/NzMwNTg2L3Bob3Rv/L3JlZC1idWNrZXQt/b2YtZnJpZWQtY2hp/Y2tlbi1vbi13aGl0/ZS1iYWNrZ3JvdW5k/LTIuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWRsc0d6b0Vr/UDBFVXRCNEtrRUJj/M1E5aEY1X0t3RFhf/Mjc5aE1TSk44bDQ9" style="height:300px; width:400px;"></td>
+            </tr>
+            <tr>
+                <td><h2><center>MIXED CHICKEN BUCKET</center></h2></td>
+                <td><h2><center>CLASSIC CHICKEN BUCKET</center></h2></td>
+                <td><h2><center>SPICY CHICKEN BUCKET</center></h2></td>
+            </tr>
+            <tr>
+                <td><center><h2><center>400&#8377</center></h2></center></td>
+                <td><center><h2><center>400&#8377</center></h2></center></td>
+                <td><center><h2><center>450&#8377</center></h2></center></td>
+            </tr> 
+            <tr>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="classic" onclick="mixed()" value="Select"></center></td>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="fiery" onclick="classic()" value="Select"></center></td>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="double" onclick="spicy()" value="Select"></center></td>
+            </tr>   
+        </table>
+        </div>
+
+        <div class="checkout">
+            <button style="width:80px; height:40px; background-color:white; color:green;"><a href="checkout.html">Checkout</a></button>
+        </div>
+    </body>
+</html>

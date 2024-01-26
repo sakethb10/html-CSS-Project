@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Order Burgers</title>
+        <link rel="Stylesheet" href="Style2.css">
+        <script>
+            function classic(){
+                alert("1 Classic Sandwich Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+        <script>
+            function fiery(){
+                alert("1 Fiery Sandwich Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+        <script>
+            function double(){
+                alert("1 Double Chicken Sandwich Added!");
+                count=1;
+                alert("Total count is "+count);
+                keepgoing=true;
+                while(keepgoing=confirm("Add another?")){
+                    count++;
+                }
+                alert("Total Count is "+count);
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h2><center>CHOOSE FROM OUR AUTHENTIC BURGERS</center></h2>
+        </div>
+
+        <div class="burger">
+        <table style="border:none;">
+            <tr>
+                <td><img src="https://imgs.search.brave.com/d5ojelyZEtREOIOOoB-BrJtqYuCwKj56bwN-jNNw8fk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/aHVuZ3J5amFja3Mu/Y29tLmF1L1VwbG9h/ZC9ISi9NZWRpYS9V/Tk8vSEowMDU3MV9X/RUJfSmFjayVDRSU5/M0NPcy1GcmllZC1D/aGlja2VuLWNsYXNz/aWNfODAwWDYwMF8z/LnBuZw" style="height:300px; width:400px;"></td>
+                <td><img src="https://imgs.search.brave.com/BwtewNbV0rsKyaRWgmhm4IQeS8bzmk7GCLtUVcBSVOQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9leHRl/cm5hbC1wcmV2aWV3/LnJlZGQuaXQvZFkz/ZDByU0JNOHFkN2Fs/S1FsYW9BOVZKLXVk/UzBfWS1iUXRHZVN3/RklCOC5qcGc_d2lk/dGg9NjQwJmNyb3A9/c21hcnQmYXV0bz13/ZWJwJnM9ZTA4MTg2/OWQ2ZDU0YjkxNjE3/Mzc4NjYyZDM2ZDM5/Y2EyMDI3NjQ1Nw" style="height:300px; width:400px;"></td>
+                <td><img src="https://imgs.search.brave.com/Bk7XEEm7TzaE7NE_srP7nAzUpfoxH9KCww1uRbY37Dw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9kb3Vi/bGUtc3RhY2tlZC1j/aGlja2VuLWJ1cmdl/ci1kb3VibGUtc3Rh/Y2tlZC1jaGlja2Vu/LWJ1cmdlci12ZWdl/dGFibGVzLXNhbGFk/LWRyZXNzaW5nLXNo/b3QteWVsbG93LWJh/Y2tncm91bmQtMjIw/OTk1MzgzLmpwZw" style="height:300px; width:400px;"></td>
+            </tr>
+            <tr>
+                <td><h2><center>CLASSIC CHICKEN SANDWICH</center></h2></td>
+                <td><h2><center>FIERY CHICKEN SANDWICH</center></h2></td>
+                <td><h2><center>DOUBLE CHICKEN SANDWICH</center></h2></td>
+            </tr>
+            <tr>
+                <td><center><h2><center>180&#8377</center></h2></center></td>
+                <td><center><h2><center>200&#8377</center></h2></center></td>
+                <td><center><h2><center>220&#8377</center></h2></center></td>
+            </tr> 
+            <tr>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="classic" onclick="classic()" value="Select"></center></td>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="fiery" onclick="fiery()" value="Select"></center></td>
+                <td><center><input type="button" style="width:80px; height:40px; background-color:white; color:green;" id="double" onclick="double()" value="Select"></center></td>
+            </tr>    
+        </table>
+        </div>
+
+        <div class="checkout">
+            <button style="width:80px; height:40px; background-color:white; color:green;"><a href="checkout.html">Checkout</a></button>
+        </div>
+    </body>
+</html>
